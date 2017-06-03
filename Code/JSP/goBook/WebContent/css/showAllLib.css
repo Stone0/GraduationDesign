@@ -1,0 +1,210 @@
+@CHARSET "UTF-8";
+
+.showAllLib {
+	/* background-color: #960018;  */
+	width: 1350px;
+	height: 1400px;
+	background-position: center center;
+	overflow: hidden;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理、员工管理、借书证管理下边框 */
+.body .body_left .leftBoo, .body .body_left .leftMan, .body .body_left .leftLib {
+	border-bottom: 1px solid #fff;
+}
+
+/* body-左侧栏-侧拉菜单-员工管理、借书证管理、分类管理上边框 */
+.body .body_left .leftMan, .body .body_left .leftLib, .body .body_left .leftCat {
+	border-top: 1px solid #fff;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理div */
+.body .body_left .leftBoo, .body .body_left .leftMan, .body .body_left .leftLib , .body .body_left .leftCat {
+	background-color: #343F3E;
+	position: relative;
+	display: inline-block;
+	background: 0;
+}
+
+/* body-左侧栏-侧拉菜单-书籍子菜单div */
+.body .body_left .booContent, .body .body_left .manContent, .body .body_left .libContent, .body .body_left .catContent {
+	background-color: #f9f9f9;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px RGBA(0,0,0,0.2);
+    display: none;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理div-书籍子菜单div-选项 */
+.body .body_left .leftBoo .booContent a, .body .body_left .leftMan .manContent a, .body .body_left .leftLib .libContent a, .body .body_left .leftCat .catContent a {
+	/* color: black; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理div-书籍子菜单div-鼠标选中选项 */
+.body .body_left .leftBoo .booContent a:hover, .body .body_left .leftMan .manContent a:hover, .body .body_left .leftLib .libContent a:hover, .body .body_left .leftCat .catContent a:hover {
+	background-color: #DCEDFF;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理div-鼠标选中书籍管理div时显示选项 */
+.body .body_left .leftBoo:hover .booContent, .body .body_left .leftMan:hover .manContent, .body .body_left .leftLib:hover .libContent, .body .body_left .leftCat:hover .catContent {
+	display: block;
+}
+
+/* body-左侧栏-侧拉菜单-书籍管理div-鼠标选中书籍管理div时改变按钮样式 */
+.body .body_left .leftBoo:hover .booBtn, .body .body_left .leftMan:hover .manBtn, .body .body_left .leftLib:hover .libBtn, .body .body_left .leftCat:hover .catBtn {
+	background-color: #38302E;
+}
+
+/* body-主显示区-查询借书证div */
+.body .body_main .libNoProcess {
+	background-color: #FF953F;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	right: 10px;
+	bottom: 5px;
+	background: 0;
+}
+
+/* body-主显示区-借书证标题div */
+.body .body_main .libNoProcess .libNoProcess_title {
+	background-color: #fff;
+	position: absolute;
+	height: 34px;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	font-size: 24px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #000;
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div */
+.body .body_main .libNoProcess .libNoProcess_content {
+	background-color: #FFCC4C;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div-contents */
+.body .body_main .libNoProcess .libNoProcess_content .contents {
+	background-color: #474747;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	/* border-bottom: 2px solid #fff; */
+	background: 0;
+	overflow-y: scroll;
+}
+
+/* body-主显示区-查询借书证内容div-contents-table */
+.body .body_main .libNoProcess .libNoProcess_content .contents table {
+	background-color: #59A5D8;
+	width: 1093px;
+	table-layout: fixed;
+	height: 35px;
+	border-collapse: collapse;
+	background: 0;
+	border-top: 3px solid #fff;
+	border-left: 3px solid #fff;
+}
+
+/* body-主显示区-查询借书证内容div-contents-table-td_img */
+#img {
+	background-color: #fff;
+	width: 200px;
+	background: 0;
+}
+
+/* body-主显示区-查询借书证内容div-contents-table-图片div */
+.body .body_main .libNoProcess .libNoProcess_content .contents .item_img {
+	background-color: #42B1F6;
+	width: 200px;
+	height: 243px;
+	background: 0;
+}
+
+/* body-主显示区-查询借书证内容div-contents-table-图片div-img */
+.body .body_main .libNoProcess .libNoProcess_content .contents .item_img img {
+	position: absolute;
+	text-align: center;
+	width: 198px;
+	height: 241px;
+	object-fit:cover;
+	border: 1px solid #A7BAC0;
+	/* width: 100%;
+	height: 100%; */
+}
+
+/* body-主显示区-查询借书证内容div-contents-table-td_yhr */
+#yhr {
+	background-color: #fff;
+	width: 1px;
+	/* border: 1px solid #000; */
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div-contents-table-td_xhr */
+#xhr {
+	background-color: #fff;
+	height: 1px;
+	/* border: 1px solid #000; */
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div-contents-th */
+.body .body_main .libNoProcess .libNoProcess_content .contents th {
+	background-color: #A7BAC0;
+	width: 100%;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	border: 1px solid #fff;
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div-contents-td */
+.body .body_main .libNoProcess .libNoProcess_content .contents td {
+	background-color: #DDE4E8;
+	width: 100%;
+	height: 60px;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 20px;
+	border: 1px solid #fff;
+	/* background: 0; */
+}
+
+/* body-主显示区-查询借书证内容div-contents-input */
+.body .body_main .libNoProcess .libNoProcess_content .contents input {
+	background-color: #474747;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #474747;
+	/* background: 0; */
+}
+

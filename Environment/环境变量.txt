@@ -1,0 +1,10 @@
+bat文件自行修改路径 运行后需在环境变量窗口确认一次
+
+JAVA_HOME
+C:\jdk1.7.0_45
+
+CLASSPATH
+.;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar
+
+Path
+%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin

@@ -1,0 +1,120 @@
+@CHARSET "UTF-8";
+
+/* 解决浏览器差异 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 元素选择器 元素名称 { 属性 : 属性值 ; } */
+body {
+	background-color: Gold;
+	background-image: url(../images/loginBG.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	font-family: "微软雅黑";
+	overflow: hidden;
+}
+
+/* start login */
+/* 类选择器 .类名称 { 属性 : 属性值 ; } */
+.login {
+	/* background-color: gray; */
+	background-color: RGBA(247,255,247,0.7);
+	position: relative;
+	top: 140px;
+	left: 35%;
+	width: 400px;
+	height: 300px;
+	border-radius: 4px;
+	border: 1px solid #999;
+}
+
+.login .l_title {
+	/* background-color: AliceBlue; */
+	text-align: center;
+	margin-top: 20px;
+	font-size: 250%;
+	color: #001427;
+}
+
+.login .l_span {
+	/* background-color: DarkGray; */
+	position: absolute;
+	left: 22%;
+	right: 22%;
+	text-align: left;
+	font-size: 100%;
+	color: #DF0920;
+}
+
+.login .l_input {
+	/* background-color: SteelBlue; */
+	position: absolute;
+	top: 100px;
+	left: 20%;
+	right: 20%;
+	height: 170px;
+}
+
+.login .l_input .mid {
+	/* background-color: SkyBlue; */
+	margin: 4%;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #084C61;
+}
+
+.login .l_input .psw {
+	/* background-color: SkyBlue; */
+	margin: 4%;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #084C61;
+}
+
+.login .l_input input {
+	/* background-color: DeepSkyBlue; */
+	position: relative;
+	top: 6px;
+	left: 6px;
+	width: 200px;
+	height: 18px;
+	padding: 5px 0px 5px 5px;
+	border: none;
+	background: 0;
+	font-size: 16px;
+}
+
+.login .l_submit {
+	/* background-color: pink; */
+	position: relative;
+ 	margin: 4%;
+	height: 40px;
+	border: 1px solid #084C61;
+}
+
+.login .l_submit input {
+	/* background-color: HotPink; */
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 40px;
+	font-size: 20px;
+	/* color: #fff; */
+	font-family: "黑体";
+	/* Glow */
+	color: #fff;
+	background-color: #474747;
+	/* text-shadow: #fff 0 0 10px; */
+	
+	/* Neon */
+	/* color: #fff;
+	background-color: #232323;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18; */
+}
+
+/* end login */

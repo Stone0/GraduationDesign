@@ -1,0 +1,173 @@
+@CHARSET "UTF-8";
+
+.showAllSub {
+	/* background-color: #960018;  */
+	width: 1350px;
+	height: 1400px;
+	background-position: center center;
+	overflow: hidden;
+}
+
+/* body-左侧栏-侧拉菜单-借阅服务下边框 */
+.body .body_left .leftBor {
+	border-bottom: 1px solid #fff;
+}
+
+/* body-左侧栏-侧拉菜单-借书证服务上边框 */
+.body .body_left .leftCar {
+	border-top: 1px solid #fff;
+}
+
+/* body-左侧栏-侧拉菜单-借阅菜单div */
+.body .body_left .leftBor, .body .body_left .leftCar {
+	background-color: #343F3E;
+	position: relative;
+	display: inline-block;
+	background: 0;
+}
+
+/* body-左侧栏-侧拉菜单-借阅子菜单div */
+.body .body_left .borContent, .body .body_left .carContent {
+	background-color: #f9f9f9;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px RGBA(0,0,0,0.2);
+    display: none;
+}
+
+/* body-左侧栏-侧拉菜单-借阅菜单div-借阅子菜单div-选项 */
+.body .body_left .leftBor .borContent a, .body .body_left .leftCar .carContent a {
+	/* color: black; */
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+/* body-左侧栏-侧拉菜单-借阅菜单div-借阅子菜单div-鼠标选中选项 */
+.body .body_left .leftBor .borContent a:hover, .body .body_left .leftCar .carContent a:hover {
+	background-color: #DCEDFF;
+}
+
+/* body-左侧栏-侧拉菜单-借阅菜单div-鼠标选中借阅菜单div时显示选项 */
+.body .body_left .leftBor:hover .borContent, .body .body_left .leftCar:hover .carContent {
+	display: block;
+}
+
+/* body-左侧栏-侧拉菜单-借阅菜单div-鼠标选中借阅菜单div时改变按钮样式 */
+.body .body_left .leftBor:hover .borBtn, .body .body_left .leftCar:hover .carBtn {
+	background-color: #38302E;
+}
+
+/* body-主显示区-预约div */
+.body .body_main .subNoComplete {
+	background-color: #FF953F;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	right: 10px;
+	bottom: 5px;
+	background: 0;
+}
+
+/* body-主显示区-预约标题div */
+.body .body_main .subNoComplete .subNoComplete_title {
+	background-color: #fff;
+	position: absolute;
+	height: 35px;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	/* background: 0; */
+}
+
+/* body-主显示区-预约标题div-table */
+.body .body_main .subNoComplete .subNoComplete_title table {
+	/* background-color: #1BB7A5; */
+	width: 1120px;
+	table-layout: fixed;
+	height: 35px;
+	border-collapse: collapse;
+	/* background: 0; */
+	/* border: 1px solid #fff; */
+}
+
+/* body-主显示区-预约标题div-th */
+.body .body_main .subNoComplete .subNoComplete_title th {
+	background-color: #FF5A36;
+	width: 100%;
+	/* border-left: 2px solid #FFCC4C;
+	border-right: 2px solid #FFCC4C; */
+	border-bottom: 1px solid ;
+	background: 0;
+}
+
+/* body-主显示区-预约内容div */
+.body .body_main .subNoComplete .subNoComplete_content {
+	background-color: #FFCC4C;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/* background: 0; */
+}
+
+/* body-主显示区-预约内容div-items */
+.body .body_main .subNoComplete .subNoComplete_content .items {
+	background-color: #59A5D8;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	background: 0;
+}
+
+/* body-主显示区-预约内容div-items-table */
+.body .body_main .subNoComplete .subNoComplete_content .items table {
+	background-color: #1BB7A5;
+	width: 1120px;
+	table-layout: fixed;
+	border-collapse: collapse;
+	/* border: 1px solid #fff; */
+	background: 0;
+}
+
+/* body-主显示区-预约内容div-items-table-td */
+.body .body_main .subNoComplete .subNoComplete_content .items td {
+	background-color: #FFCC4C;
+	width: 100%;
+	height: 35px;
+	/* border-left: 2px solid #fff; */
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 1px solid #fff;
+	word-break: keep-all;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: 0;
+}
+
+/* body-主显示区-预约内容div-items-table-td-input */
+.body .body_main .subNoComplete .subNoComplete_content .items input {
+	background-color: #474747;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-size: 20px;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+}
+
+
+
+
+
+

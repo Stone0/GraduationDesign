@@ -1,0 +1,169 @@
+@CHARSET "UTF-8";
+
+.addManager {
+	/* background-color: #960018; */
+	width: 1350px;
+	height: 1400px;
+	background-position: center center;
+	overflow: hidden;
+}
+
+/* head-标题 */
+.head p {
+	background-color: #474747;
+	position: absolute;
+	color: #fff;
+	background: 0;
+	cursor: pointer;
+}
+
+/* body-主显示区-查询书籍div */
+.body .body_main .newManager {
+	background-color: #FF953F;
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	right: 10px;
+	bottom: 5px;
+	background: 0;
+}
+
+/* body-主显示区-查询书籍标题div */
+.body .body_main .newManager .newManager_title {
+	background-color: #fff;
+	position: absolute;
+	height: 34px;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	font-size: 24px;
+	text-align: center;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom: 1px solid #000;
+	/* background: 0; */
+}
+
+/* body-主显示区-查询书籍内容div */
+.body .body_main .newManager .newManagerForm {
+	background-color: #FFCC4C;
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	right: 5px;
+	bottom: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	/* background: 0; */
+}
+
+.body .body_main .newManager .content_text {
+	background-color: #474747;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	right: 5px;
+	bottom: 200px;
+	border-bottom: 2px solid #fff;
+	background: 0;
+}
+
+.body .body_main .newManager .content_text .content_textSpan {
+	background-color: #fff;
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	right: 10px;
+	bottom: 0px;
+	background: 0;
+}
+
+.body .body_main .newManager .content_text .content_textSpan p {
+	background-color: #FFCC4C;
+	position: relative;
+	height: 80px;
+	top: 5px;
+	margin: 10px;
+	background: 0;
+}
+
+.body .body_main .newManager .content_text .content_textSpan span {
+	background-color: RGBA(125,125,125,0.5);
+	position: absolute;
+	width: 300px;
+	height: 80px;
+	left: 30px;
+	text-align: right;
+	line-height: 80px;
+	color: #474747;
+	/* border: 1px solid #fff; */
+	background: 0;
+}
+
+.body .body_main .newManager .content_text .content_textSpan input {
+	background-color: RGBA(125,125,125,0.2);
+	position: absolute;
+	width: 700px;
+	height: 68px;
+	right: 30px;
+	padding: 5px 0px 5px 10px;
+	font-size: 36px;
+	border: 1px solid #fff;
+	cursor: text;
+	color: #fff;
+	/* background: 0; */
+}
+
+.body .body_main .newManager .content_text .content_textSpan select {
+	background-color: RGBA(125,125,125,0.2);
+	position: absolute;
+	width: 150px;
+	height: 80px;
+	left: 328px;
+	font-size: 36px;
+	text-align: center;
+	border: 1px solid #fff;
+	cursor: pointer;
+	/* background: 0; */
+}
+
+.body .body_main .newManager .btn {
+	background-color: #474747;
+	position: absolute;
+	height: 200px;
+	left: 5px;
+	right: 5px;
+	bottom: 0px;
+	background: 0;
+}
+
+.body .body_main .newManager .newManagerForm .btn_submit input {
+	background-color: #474747;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 50px;
+	left: 250px;
+	border-radius: 4px;
+	border: #474747;
+	font-size: 36px;
+	color: #fff;
+	cursor: pointer;
+	/* background: 0; */
+}
+
+.body .body_main .newManager .newManagerForm .btn_reset input {
+	background-color: #474747;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 50px;
+	right: 250px;
+	border-radius: 4px;
+	border: #474747;
+	font-size: 36px;
+	color: #fff;
+	cursor: pointer;
+	/* background: 0; */
+}
+
